@@ -94,12 +94,15 @@ class MainActivity : AppCompatActivity() {
             }
         })
 
-        //button click
+        // Calculate button functionality is temporarily disabled
+        // To re-enable it, uncomment the following block:
+        /*
         btCalculate.setOnClickListener {
             val i = Intent(this@MainActivity, ResultActivity::class.java)
             i.putExtra(keyResult, tv_result.text)
             startActivity(i)
         }
+        */
     }
 
     private fun requestForPermission() {
